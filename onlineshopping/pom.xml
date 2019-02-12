@@ -15,6 +15,13 @@
 	</properties>
 	<dependencies>
 
+		<!-- Linking backend project -->
+		<dependency>
+			<groupId>com.Harish</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<!-- JAVA EE API -->
 
 		<dependency>
@@ -31,7 +38,7 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- SPRING -->
 
 		<dependency>
@@ -39,7 +46,7 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
+
 		<!-- JSTL -->
 
 		<dependency>
@@ -47,7 +54,7 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-		
+
 	</dependencies>
 	<build>
 		<plugins>
